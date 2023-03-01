@@ -332,12 +332,14 @@ const animationTimeline = () => {
 fetchData();
 
 // tambahkan element audio pada index.html
-var source = "audio/birthday-male.mp3"
-var audio = document.createElement("audio");
-audio.autoplay = true;
 
-audio.load()
-audio.addEventListener("load", function() { 
-    audio.play(); 
-}, true);
-audio.src = source;
+// var source = "audio/birthday-male.mp3"
+// var audio = document.createElement("audio");
+// audio.autoplay = true;
+// audio.play();
+
+// audio.load()
+// audio.addEventListener("load", function() { 
+//     audio.play(); 
+// }, true);
+// audio.src = source;
